@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>carousel_btn_selected_rcs_POC@1x</title>
+    <g id="carousel_btn_selected_rcs_POC" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-13" transform="translate(1.000000, 3.000000)">
+            <g id="1287111" transform="translate(5.192337, 0.000000)">
+                <rect id="Rectangle" fill="#C2DEF2" x="0" y="0" width="11.1264368" height="17.0605364" rx="3"></rect>
+                <rect id="Rectangle" stroke="#549ED1" stroke-width="1.5" x="0" y="0" width="11.1264368" height="17.0605364" rx="3"></rect>
+            </g>
+            <polyline id="Path-2" stroke="#549ED1" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" points="2.1054029 6.67586207 0 8.78126497 2.1054029 10.8866679"></polyline>
+            <polyline id="Path-2" stroke="#549ED1" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" transform="translate(20.338525, 8.781265) rotate(-180.000000) translate(-20.338525, -8.781265) " points="21.3912267 6.67586207 19.2858238 8.78126497 21.3912267 10.8866679"></polyline>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="38px" height="16px" viewBox="0 0 38 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>label_rcs@1x</title>
+    <g id="label_rcs" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M6.54138489,0 L32.9658815,0 C35.0450712,-1.27011936e-15 36.7305874,1.68551624 36.7305874,3.76470588 C36.7305874,4.03625027 36.7012084,4.30699769 36.6429631,4.57222182 L34.7827554,13.0428101 C34.4035198,14.7696868 32.8737019,16 31.1056739,16 L4.68117728,16 C2.60198763,16 0.916471394,14.3144838 0.916471394,12.2352941 C0.916471394,11.9637497 0.945850473,11.6930023 1.00409577,11.4277782 L2.86430338,2.95718994 C3.24353906,1.2303132 4.7733569,2.10113831e-15 6.54138489,0 Z" id="Rectangle" fill="#5E55AB"></path>
+        <text id="RCS" font-family="ProximaSoft-SemiboldIt, Proxima Soft" font-size="11.2941176" font-style="italic" font-weight="500" fill="#FFFFFF">
+            <tspan x="8" y="11.4705882">RCS</tspan>
+        </text>
+    </g>
+</svg>
