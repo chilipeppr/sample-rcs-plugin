@@ -82,6 +82,9 @@ background-color: #352F66;
 .plugin-rcs-bubble .zk-button-primary:disabled {
 background-color: #B1ACE4;
 }
+.plugin-rcs-bubble .zk-button-primary:enabled {
+background-color: #5E55AB;
+}
 `, this.id + " plugin css");
 
         // Listen to events
@@ -399,6 +402,9 @@ background-color: #2C2C2E;
 }
 .plugin-abc-bubble .zk-button-primary:disabled {
 background-color: #C5C9CD;
+}
+.plugin-abc-bubble .zk-button-primary:enabled {
+background-color: #848E99;
 }
 .topregion-abc-iconurl {
     width: 28px;
