@@ -237,6 +237,7 @@ background-color: #5E55AB;
 
                 // getOrCreateComposeBoxBtnBarCss: function(id, tooltip, iconUrl, iconUrlHover, iconUrlSel, onClickCallback) {
                 this.btnCarouselEl = zw.plugin.getOrCreateComposeBoxBtnBarCss(this.id + "-carousel", "Carousel", this.iconUrlCarousel, this.iconUrlCarouselHover, this.iconUrlCarouselSelected, this.onClickCarouselBtn.bind(this));
+                this.btnCarouselEl.addClass("plugin-abc-leftlinedivider");
                 this.btnChipEl = zw.plugin.getOrCreateComposeBoxBtnBarCss(this.id + "-chip", "Chip List", this.iconUrlChip, this.iconUrlChipHover, this.iconUrlChipSelected, this.onClickChipBtn.bind(this));
                 this.btnCalEl = zw.plugin.getOrCreateComposeBoxBtnBarCss(this.id + "-cal", "Calendar Entry", this.iconUrlCal, this.iconUrlCalHover, this.iconUrlCalSelected, this.onClickCalBtn.bind(this));
                 this.btnLocEl = zw.plugin.getOrCreateComposeBoxBtnBarCss(this.id + "-loc", "Location Share", this.iconUrlLoc, this.iconUrlLocHover, this.iconUrlLocSelected, this.onClickLocBtn.bind(this));
