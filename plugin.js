@@ -3188,7 +3188,7 @@ $(document).ready(function() {
     // Then this next line of code would happen automatically. Meaning the Plugin's Javascript would get loaded and then it's onLoad()
     // method would get called automatically.
 
-    //pluginLangTranslator.onLoad();
+    pluginLangTranslator.onLoad();
     pluginAuthvia.onLoad();
 
     pluginRCS.onLoad();
