@@ -82,6 +82,9 @@ background-color: #352F66;
 .plugin-rcs-bubble .zk-button-primary:disabled {
 background-color: #B1ACE4;
 }
+.plugin-rcs-bubble .zk-button-primary:enabled {
+background-color: #5E55AB;
+}
 `, this.id + " plugin css");
 
         // Listen to events
@@ -234,6 +237,7 @@ background-color: #B1ACE4;
 
                 // getOrCreateComposeBoxBtnBarCss: function(id, tooltip, iconUrl, iconUrlHover, iconUrlSel, onClickCallback) {
                 this.btnCarouselEl = zw.plugin.getOrCreateComposeBoxBtnBarCss(this.id + "-carousel", "Carousel", this.iconUrlCarousel, this.iconUrlCarouselHover, this.iconUrlCarouselSelected, this.onClickCarouselBtn.bind(this));
+                this.btnCarouselEl.addClass("plugin-abc-leftlinedivider");
                 this.btnChipEl = zw.plugin.getOrCreateComposeBoxBtnBarCss(this.id + "-chip", "Chip List", this.iconUrlChip, this.iconUrlChipHover, this.iconUrlChipSelected, this.onClickChipBtn.bind(this));
                 this.btnCalEl = zw.plugin.getOrCreateComposeBoxBtnBarCss(this.id + "-cal", "Calendar Entry", this.iconUrlCal, this.iconUrlCalHover, this.iconUrlCalSelected, this.onClickCalBtn.bind(this));
                 this.btnLocEl = zw.plugin.getOrCreateComposeBoxBtnBarCss(this.id + "-loc", "Location Share", this.iconUrlLoc, this.iconUrlLocHover, this.iconUrlLocSelected, this.onClickLocBtn.bind(this));
@@ -399,6 +403,9 @@ background-color: #2C2C2E;
 }
 .plugin-abc-bubble .zk-button-primary:disabled {
 background-color: #C5C9CD;
+}
+.plugin-abc-bubble .zk-button-primary:enabled {
+background-color: #848E99;
 }
 .topregion-abc-iconurl {
     width: 28px;
@@ -3188,7 +3195,7 @@ $(document).ready(function() {
     // Then this next line of code would happen automatically. Meaning the Plugin's Javascript would get loaded and then it's onLoad()
     // method would get called automatically.
 
-    //pluginLangTranslator.onLoad();
+    pluginLangTranslator.onLoad();
     pluginAuthvia.onLoad();
 
     pluginRCS.onLoad();
